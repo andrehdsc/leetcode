@@ -12,7 +12,7 @@ func lengthOfLongestSubstring(s string) int {
 	lastIndex := make([]int, 128)
 
 	start := 0
-	for end := 0; end < n; end++ {
+	for end := range n {
 		current := s[end]
 		if lastIndex[current] > start {
 			start = lastIndex[current]
@@ -24,3 +24,5 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
+
+//submodule test
