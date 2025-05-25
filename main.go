@@ -6,4 +6,5 @@ func main() {
 	//fmt.Println(lengthOfLongestSubstring("abcabcbb"))
 	nums := []int{0, 1, 1, 1, 1, 0, 1}
 	fmt.Println(longestSubarray(nums))
+	fmt.Println(containsNearbyDuplicate(nums, 3))
 }
