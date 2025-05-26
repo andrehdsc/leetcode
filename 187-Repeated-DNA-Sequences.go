@@ -21,8 +21,6 @@ func findRepeatedDnaSequences(s string) []string {
 		m[a]++
 	}
 
-    // we can trade some time to count elements of m with 
-    // values > 1 to avoid allocating extra space
 	res := make([]string, 0, len(m))
 	for k, v := range m {
 		if v > 1 {
