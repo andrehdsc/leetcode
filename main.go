@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	nums := []int{5,7,1,4}
 	//fmt.Println(lengthOfLongestSubstring("abcabcbb"))ds
-	nums := []int{0, 1, 1, 1, 1, 0, 1}
-	fmt.Println(longestSubarray(nums))
-	fmt.Println(containsNearbyDuplicate(nums, 3))
+	//fmt.Println(longestSubarray(nums))
+	fmt.Println(decrypt(nums, 3))
 }
